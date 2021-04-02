@@ -9,7 +9,7 @@ resource "kubernetes_deployment" "events-external-deployment" {
 
   spec {
     replicas                  = 2
-    progress_deadline_seconds = 90
+    progress_deadline_seconds = 3600
     selector {
       match_labels = {
         App = "events-external"

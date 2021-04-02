@@ -1,5 +1,9 @@
 data "google_client_config" "default" {}
 
+data "google_container_cluster" "gke-cluster" {
+  name = "${var.app_name}-cluster"
+  #zone = "us-east1-a"
+}
 provider "kubernetes" {
   host                   = "https://${google_container_cluster.gke-cluster.endpoint}"
   token                  = data.google_client_config.default.access_token

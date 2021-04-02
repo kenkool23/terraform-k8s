@@ -1,13 +1,13 @@
 # GCP Settings
-project_id          = "mar-roidtc400-instructor" # Enter your project ID here.
+project_id          = "capstone-project-308119"
 
 # Enter you Docker Images
-external_image_name = "drehnstrom/events-external-deloitte:v1.0"
-internal_image_name = "drehnstrom/events-internal-deloitte:v1.0"
+external_image_name = "kenkool23/external-events:34"
+internal_image_name = "kenkool23/internal-event:v1"
+
 
 gcp_region_1 = "us-central1"
-gcp_zone_1   = "us-central1-a"
+gcp_zone_1   = "us-central1-c"
 
-# Application Name (used in resource names, no spaces.)
-app_name = "events-feed"
+app_name = "capstone-project"
 

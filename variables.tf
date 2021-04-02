@@ -19,7 +19,6 @@ variable "gcp_region_1" {
   description = "GCP Region"
 }
 
-# define GCP zone
 variable "gcp_zone_1" {
   type        = string
   description = "GCP Zone"
