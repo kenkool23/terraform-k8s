@@ -2,7 +2,7 @@
 project_id          = "capstone-project-308119"
 
 # Enter you Docker Images
-external_image_name = "kenkool23/external-events:34"
+external_image_name = "kenkool23/external-events:latest"
 internal_image_name = "kenkool23/internal-event:v1"
 
 
